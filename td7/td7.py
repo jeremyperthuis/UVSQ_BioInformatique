@@ -3,6 +3,7 @@
 # Les codons sont affcihé sous forme d'une matrice de correspondance dans un fichier externe
 # On demande a l'utilisateur un nombrede groupement pour eliminer le bruit parasite de correspondance
 # 	afin de mettre en valeur les diagonales
+# Penser a modifier le chemin des fichier si l arborescence differe
 
 nom ="/home/perthuis/Programmation/Python/td7/" + raw_input(" Saisir le nom du fichier : ") +".txt"
 f=open(nom,'r')
